@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S $CFILE -o main.s
+export CFILE=main.c | gcc -S $CFILE -o main.s
+
