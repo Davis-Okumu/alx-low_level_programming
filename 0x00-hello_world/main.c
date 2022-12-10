@@ -1,9 +1,17 @@
 #include <stdio.h>
 
-int main()
-{
-        char name[]="hello world";
-        printf(name);
-	return 0;
 
+/**
+
+ * main - Entry point
+
+ *
+
+ * Return: Always 0 (Success)
+
+ */
+
+int main(void)
+{
+        return (0);
 }
