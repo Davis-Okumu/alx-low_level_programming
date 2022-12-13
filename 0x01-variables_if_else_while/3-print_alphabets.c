@@ -10,7 +10,7 @@ int main(void)
 {
 	int ch = 'a';
 	int CH = 'A';
-	
+
 	do {
 		putchar(ch);
 		ch++;
