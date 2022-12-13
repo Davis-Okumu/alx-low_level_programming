@@ -2,7 +2,7 @@
 /**
  *main -entry point
  *
- *return: always 0 (succes)
+ *Return: always 0 (success)
  */
 int main(void)
 {
@@ -24,7 +24,7 @@ int main(void)
 					if (k != 7)
 					{
 						putchar(',');
-						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
