@@ -8,17 +8,16 @@
 int main(void)
 {
 	int n = '0';
-
-	do{
+	int ch = 'a';
+	do {
 		putchar(n);
 		n++;
-	}while (n <= '9');
-
-	int ch = 'a';
-	do{
+	} while (n <= '9');
+	
+	do {
 		putchar(ch);
 		ch++;
-	}while (ch <= 'f');
+	} while (ch <= 'f');
 	putchar('\n');
 	return (0);
 }
