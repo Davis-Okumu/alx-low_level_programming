@@ -9,20 +9,16 @@ int main(void)
 {
 	int n = '0';
 
-	do
-	{
+	do{
 		putchar(n);
 		n++;
-	}
-	while(n <= '9');
+	}while (n <= '9');
 
 	int ch = 'a';
-	do
-	{
+	do{
 		putchar(ch);
 		ch++;
-	}
-	while(ch <= 'f');
+	}while (ch <= 'f');
 	putchar('\n');
 	return (0);
 }
