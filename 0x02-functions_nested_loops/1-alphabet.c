@@ -5,7 +5,7 @@
  *Main - entry point
  *Return: always 0 (success)
  */
-void print_alphabet(void);
+void print_alphabet();
 int main(void)
 {
 	print_alphabet();
@@ -15,7 +15,7 @@ int main(void)
  *print_alphabet
  *Return: 0 (success)
  */
-void print_alphabet(void)
+void print_alphabet()
 {
 	int ch;
 
