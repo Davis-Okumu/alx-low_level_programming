@@ -3,7 +3,7 @@
 /**
  *more_numbers - Entry point
  *Description: prints numbers 0 to 14 ten times
- *Return: Always o (success)
+ *Return: Always 0 (success)
  */
 void more_numbers(void)
 {
@@ -13,7 +13,7 @@ void more_numbers(void)
 	{
 		int ch;
 
-		for (ch = 0; ch < 14; ch++)
+		for (ch = 0; ch < 15; ch++)
 		{
 			i = ch;
 			if (ch > 9)
