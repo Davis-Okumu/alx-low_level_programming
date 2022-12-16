@@ -1,14 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
- *
- *Main - entry point
- *Return: always 0 (success)
+ *print_alphabet - Entry point
+ *Description: A function that writes all lowercase letter to standard output
+ *Return: Always 0 (succes)
  */
-int main(void)
+
+void print_alphabet()
 {
-	print_alphabet();
-	return (0);
+	int ch = 'a';
+
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
 }

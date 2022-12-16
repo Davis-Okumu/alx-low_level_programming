@@ -1,32 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- *print_alphabet_x10
- *no return
+ *print_alphabet_10x - entry point
+ *Description: writes lower case alphabets ten time to the standard output
+ *Return: Always 0 (success)
  */
-void print_alphabet_x10()
+void print_alphabet_10x(void)
 {
 	int n = 0;
+
 	while (n < 11)
 	{
 		int ch = 'a';
-		while (ch < 'z')
+		while (ch <= 'z')
 		{
-			putchar(ch);
+			_putchar(ch);
 			ch++;
 		}
 		putchar('\n');
 		n++;
 	}
-}
-
-/**
- *main - Entry point
- *Return: Always 0 (success)
- */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
