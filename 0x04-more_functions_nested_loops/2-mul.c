@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- *mul(int a, int b) - Entry point
- *Description:multiplies two integers
- *Return: product
+ *mul - Entry point
+ *Description: multiplies two integers
+ *Return: Always 0 (success)
  */
 int mul(int a, int b)
 {
-	int product;
-
-	product = a*b;
+	int product = a * b;
 
 	return (product);
 }
