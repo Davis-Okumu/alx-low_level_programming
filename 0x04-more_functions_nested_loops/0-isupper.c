@@ -3,7 +3,7 @@
 /**
  *_isupper - Entry point
  *Description: Checks for uppercase letters
- *Return: 1 if c is uppercase || otherwise 0
+ *Return: 1 if c is uppercase(true), otherwise 0 (false)
  */
 int _isupper(int c)
 {
