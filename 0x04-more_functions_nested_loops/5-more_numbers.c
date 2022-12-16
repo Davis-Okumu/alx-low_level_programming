@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- *more_numbers - Entry point
- *Description: prints numbers 0 to 14 ten times
+ *more_numbers - prints numbers 0 to 14 ten times
  *Return: Always 0 (success)
  */
 void more_numbers(void)
 {
 	int n, i;
 
-	for (n = 0; n < 11; n++)
+	for (n = 1; n < 11; n++)
 	{
 		int ch;
 
