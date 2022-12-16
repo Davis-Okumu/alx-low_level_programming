@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_isupper - Entry point
- *Description: Checks for uppercase letters
- *Return:Always 0 (success)
+ *_isupper - Checks for uppercase letters
+ *@c value that is checked
+ *Return: 1 if c is alphabet ,else 0
  */
 int _isupper(int c)
 {
