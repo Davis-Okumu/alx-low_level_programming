@@ -3,12 +3,13 @@
 /**
  *mul(int a, int b) - Entry point
  *Description:multiplies two integers
- *Return: int value
+ *Return: product
  */
 int mul(int a, int b)
 {
 	int product;
 
 	product = a*b;
+
 	return (product);
 }
