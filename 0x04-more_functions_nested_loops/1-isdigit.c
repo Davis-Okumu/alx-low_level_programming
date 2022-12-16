@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_isdigit - Entry point
- *Description: Checks for a digit (0 through 9)
- *Return:1 if true (success), 0 if false (success)
+ * _isdigit - Checks for a digit (0 through 9)
+ *@c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
 int _isdigit(int c)
 {
