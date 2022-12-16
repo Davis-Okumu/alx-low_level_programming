@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-main - causes an infinate loop
-Return: Always 0 (success)
-*/
+ *main - causes an infinate loop
+ *Return: Always 0 (success)
+ */
 
 int main(void)
 {
@@ -13,12 +12,12 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-/**
- *      while (i < 10 )
- *      {
- *              putchar(i);
- *      }
- */
+
+	/*while (i < 10)*/
+	/*{*/
+	/*	putchar(i);*/
+	/*}*/
+
 	printf("Infinite loop avoided! \\0/\n");
 
 	return (0);
