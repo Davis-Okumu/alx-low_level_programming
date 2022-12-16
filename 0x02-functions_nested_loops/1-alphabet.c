@@ -6,7 +6,7 @@
  *Return: Always 0 (succes)
  */
 
-void print_alphabet()
+void print_alphabet(void)
 {
 	int ch = 'a';
 
