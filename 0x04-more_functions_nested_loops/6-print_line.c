@@ -2,7 +2,7 @@
 
 /**
  *print_line - Entry point
- *Descriprion: Prints '_' n times to standard output
+ *Descriprion: Draws a straight line 
  *Return: Always 0 (success)
  */
 void print_line(int n)
