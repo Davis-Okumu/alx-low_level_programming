@@ -5,7 +5,8 @@
  *Description: writes lower case alphabets ten time to the standard output
  *Return: Always 0 (success)
  */
-void print_alphabet_10x()
+
+void print_alphabet_10x(void)
 {
 	int n = 0;
 
