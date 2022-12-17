@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+
 /**
- * main - finds and prints the largest prime factor of the numbers
- * return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
