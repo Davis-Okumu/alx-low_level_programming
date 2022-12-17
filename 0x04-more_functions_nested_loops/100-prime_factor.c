@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - finds and prints the largest prime factor of the numbe
+ * main - finds and prints the largest prime factor of the numbers
  * return: Always 0 (Success)
  */
 int main(void)
