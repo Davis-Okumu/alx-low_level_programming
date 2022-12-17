@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- *Main - Entry point
- *Return: Always 0 (success)
- */
+* Main - prints 0 to 100
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
 
-	for (n = 0; n <= 100; n++)
+	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0)
 		{
