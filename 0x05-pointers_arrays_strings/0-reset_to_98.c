@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - updates value it points to to 98
- * @*n: integer to be passed
+ * @n: integer to be passed
  * return: nothing
  */
 

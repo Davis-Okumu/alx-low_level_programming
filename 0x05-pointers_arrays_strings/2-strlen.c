@@ -2,10 +2,13 @@
 
 /**
  * _strlen - returns the length of a string
- * @*s:string to be returned
- * return: nothing
+ * @s:string to be returned
+ * return: an int char length
  */
 int _strlen(char *s)
 {
-	sizeof(char *s);
+	int n;
+
+	n = sizeof(char *s);
+	return (n);
 }
