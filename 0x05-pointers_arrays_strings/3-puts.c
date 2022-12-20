@@ -8,7 +8,7 @@
  */
 void _puts(char *str)
 {
-	for (str = 0; *str <= strlen(str); str++)
+	for(i = 0; str[i] != '\0'; i++)
 	{
 		_putchar(*str);
 	}
