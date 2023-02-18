@@ -1,4 +1,4 @@
-#inculde "main.h"
+#include "main.h"
 /**
  * read - checks for square root
  * @a: int
