@@ -5,7 +5,7 @@
  * @b: int
  * Return: int or -1
  */
-int csqrt (int a, int b)
+int checksqrt (int a, int b)
 {
 	if(a * a == b)
 	{
@@ -15,7 +15,7 @@ int csqrt (int a, int b)
 	{
 		return (-1);
 	}
-	return (csqrt(a + 1, b));
+	return (checksqrt(a + 1, b));
 }
 
 /**
@@ -29,5 +29,5 @@ int _sqrt_recursion(int n)
 	{
 		return (0);
 	}
-	return (csqrt(1, n));;
+	return (checksqrt(1, n));;
 }
