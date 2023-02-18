@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * read - checks for square root
+ * checksqrt - checks for square root
  * @a: int
  * @b: int
  * Return: int or -1
  */
-int checksqrt (int a, int b)
+int checksqrt(int a, int b)
 {
-	if(a * a == b)
+	if (a * a == b)
 	{
 		return (a);
 	}
@@ -29,5 +29,5 @@ int _sqrt_recursion(int n)
 	{
 		return (0);
 	}
-	return (checksqrt(1, n));;
+	return (checksqrt(1, n));
 }
