@@ -7,7 +7,7 @@
  */
 int _strlen_recursion(char *s)
 {
-	if (s[0] !+ '\0')
+	if (s[0] != '\0')
 	{
 		return (1 + _strlen_recursion(s + 1));
 	}
@@ -21,7 +21,7 @@ int _strlen_recursion(char *s)
  * @j: right index
  * Return: 1 if s is palindrome, 0 if not
  */
-int pal_check(char *S, int i, int j)
+int pal_check(char *s, int i, int j)
 {
 	if (s[i] == s[j])
 	{
