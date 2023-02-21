@@ -5,11 +5,10 @@
  * main - Program that prints its name
  * @argc: arguments count
  * @argv: argument vector
- * Return: zero on EXIT_SUCCESS
+ * Return: Always 0 (Success)
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	int count;
 
 	printf("%s\n", argv[0]);
 

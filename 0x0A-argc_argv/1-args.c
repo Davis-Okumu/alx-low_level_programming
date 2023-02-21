@@ -5,7 +5,7 @@
  * main - Program that prints its name
  * @argc: argument count
  * @argv: argument vector
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(int argc, char __attribute__((__unused__)) *argv[])
 {
