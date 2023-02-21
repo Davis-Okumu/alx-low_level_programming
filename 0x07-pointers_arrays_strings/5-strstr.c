@@ -1,37 +1,31 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * _strstr - find first occurence of a given string in another string
- * @haystack: String to search
- * @needle: string to search for
- * Return: pointer to beginning of lacated string
+ * _strstr - Find first occurence of given string in another string
+ * @haystack: String to search through
+ * @needle: String to search for
+ *
+ * Return: Pointer to beginning of located string
  */
-char *_strstr (char *haystck, char *needle)
-{
-	unsigned int i = 0, j = 0;
 
-	while (haystack[i])
+char *_strstr(char *haystack, char *needle)
+{
+	char *i, *j;
+
+	while (strlen(haystack))
 	{
-		while (needle[j] && (haystack[i] == needle[0]))
+		i = haystack;
+		j = needle;
+		while (*j == *haystack && *haystack != 0
+		       && *i != 0)
 		{
-			if (haystack[i + j] == needle[j])
-			{
-				j++;
-			}
-			else
-			{
-				break;
-			}
+			haystack++;
+			j++;
 		}
-		if (needle[j])
-		{
-			i++;
-			j = 0;
-		}
-		else
-		{
-			return (haystack + i);
-		}
+		if (*j == 0)
+			return (i);
+		haystack = i + 1;
 	}
 	return (0);
 }

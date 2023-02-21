@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
- * print_chessboard - prints chessboard
- * @a: pointe to a piece to print
- * Return: void
- */
+ * print_chessboard - fxn that prints the chessboard.
+ * @a: chessboard to be printed
+ * return: nothing
+*/
+
 void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i <= 7; i++)
 	{
-		for (j = 0; j < 8; j++)
+		for (j = 0; j <= 7; j++)
 		{
 			_putchar(a[i][j]);
 		}
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
