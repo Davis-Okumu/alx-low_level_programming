@@ -5,9 +5,9 @@
  * main - Program that prints its name
  * @argc: arguments count
  * @argv: argument vector
- * Return: zero on EXIT_SUCCESS
+ * Return: Always 0 (success)
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int count;
 
